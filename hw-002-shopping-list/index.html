@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>New Year's shopping list</title>
+</head>
+<body>
+    <h1>Shopping List</h1>
+    <blockquote>&#171;Hello sweety! We need to buy something to christmas dinner, and it seems to me, i need your help. Please choose what we need to buy, and what drinks yout want to see on that day.&#187;</blockquote>
+    <form action="#" method="POST">
+    <fieldset>
+        <legend>Fruits and vegetables</legend>
+        <h2>What fruits we need?</h2>
+        <p>Choose what fruits we will buy:</p>
+        <ol>
+            <li>
+                <label for="orange">Orange </label>
+                <input type="checkbox" name="orange" id="orange" />
+            </li>
+            <li>
+                <label for="pineapple">Pineapple</label>
+                <input type="checkbox" name="pineapple" id="pineapple" />
+            </li>
+            <li>
+                <label for="banana">Banana</label>
+                <input type="checkbox" name="banana" id="banana" />
+            </li>
+            <li>
+                <label for="mandarin">Mandarin</label>
+                <input type="checkbox" name="mandarin" id="mandarin" />
+            </li>
+        </ol>
+    </fieldset>
+    <fieldset>
+        <legend>Drinks and food</legend>
+        <h2>What we will drink?</h2>
+        <p>Pick some water:</p>
+        <ul>
+            <li>
+                <label for="morshynska">Morshynska</label>
+                <input type="radio" name="water" value="morshynska" id="morshynska" />
+            </li>
+            <li>
+                <label for="rochetta">Rochetta</label>
+                <input type="radio" name="water" value="rochetta" id="rochetta" />
+            </li>
+            <li>
+                <label for="bonaqua">Bonaqua</label>
+                <input type="radio" name="water" value="bonaqua" id="bonaqua" />
+            </li>
+        </ul>
+        <p>Pick what cocktail do you prefer:</p>
+        <ul>
+            <li>
+                <label for="old-fashioned">Old Fashioned</label>
+                <input type="radio" name="cocktail" value="old fashioned" id="old-fashioned" />
+            </li>
+            <li>
+                <label for="negroni">Negroni</label>
+                <input type="radio" name="cocktail" value="negroni"  id="negroni" />
+            </li>
+            <li>
+                <label for="aperol">Aperol Spritz</label>
+                <input type="radio" name="cocktail" value="negroni" id="aperol" />
+            </li>
+        </ul>
+        <h2>What about food?</h2>
+        <p>Pick what food we need:</p>
+        <ol>
+            <li>
+                <label>
+                     3-5 kilo potatoes
+                    <input type="checkbox" name="potatoes" />
+                </label>
+            </li>
+            <li>
+                <label>
+                     olive oil
+                    <input type="checkbox" name="oil" />
+                </label>
+            </li>
+            <li>
+                <label>
+                     2-3 bottle of ice
+                    <input type="checkbox" name="ice" />
+                </label>
+            </li>
+            <li>
+                <label>
+                     sparkling wine
+                    <input type="checkbox" name="wine" />
+                </label>
+            </li>
+            <li>
+                <label>
+                     20 eggs 
+                    <input type="checkbox" name="eggs" />
+                </label>
+            </li>
+            <li>
+                <label>
+                     some candies
+                    <input type="checkbox" name="candies" />
+                </label>
+            </li>
+            <li>
+                <label>
+                     Lorem, ipsum.
+                    <input type="checkbox" name="lorem" />
+                </label>
+            </li>
+            <li>
+                <label>
+                     Lorem ipsum dolor sit amet.
+                    <input type="checkbox" name="lorem2" />
+                </label>
+            </li>
+        </ol>
+    </fieldset>
+    <fieldset>
+        <legend>One more thing</legend>
+        <p>Just say anything, maybe I forgot about something</p>
+        <label for="other">
+            <textarea name="other" id="other" cols="30" rows="10" required></textarea>
+        </label>
+    </fieldset>
+     <button type="submit">Submit</button>
+     <button type="reset">Clear</button>
+    </form>
+</body>
+</html>
