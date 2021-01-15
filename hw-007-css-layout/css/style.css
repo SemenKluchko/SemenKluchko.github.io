@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    color: #ffffff;
+}
+
+.footer {
+    width: 1920px;
+    height: 420px;
+    background-color: #131216;
+    text-align: center; 
+}
+
+.mainText {
+    padding-top: 200px;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+.rightsText {
+    margin-top: 85px;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.rightsText  span {
+    color: #00C7FC;
+}
+
+.line {
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    margin: 15px auto 20px auto;
+    width: 230px;
+}
+
+.icons i {
+    padding: 0 15px 0 15px;
+}
