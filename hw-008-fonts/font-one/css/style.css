@@ -9,7 +9,6 @@
 
 .letter-wrapper {
     padding: 127px 120px 120px;
-    color: #171717;
 }
 
 .heading {
@@ -25,28 +24,31 @@
     line-height: 34px;
 }
 
-.main-text p,
-.kav,
-.quote-text {
-    opacity: .7;
+.main-text p {
+    color: rgba(17,17,17, 0.7);
 }
 
-.main-text .big-letter {
+.main-text p:first-of-type::first-letter {
     font-family: 'Playfair Display', Arial, Helvetica, serif; 
     font-size: 110px;
     float: left;
     padding: 27px 9px 10px 0px;
-    text-transform: uppercase;  
+    text-transform: uppercase;
+    color: #171717;
 }
 
-.kav {
+.quote-text::before {
+    content: "“" ;
+    display: inline-block;
     font-size: 60px;
+    padding-right: 30px;
 }
 
 .quote-text {
     display: inline-block;
     font-size: 24px;
     letter-spacing: 0.12px;
+    margin: 5px;
 }
 
 .button {
