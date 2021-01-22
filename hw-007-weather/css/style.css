@@ -1,0 +1,154 @@
+@font-face {
+    font-family: "Lucida Sans Unicode";
+    src: url('/font/lucidasansunicode-webfont.woff2') format("woff2"),
+         url('/font/lucidasansunicode-webfont.woff') format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Lucida Grande";
+    src: url('/font/lucidagrande-webfont.woff2') format("woff2"),
+         url('/font/lucidagrande-webfont.woff') format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+}
+
+.main-wrapper {
+    font-family: "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+    border: 15px solid #2b81ac;
+    background-color: #3499cc;
+    color: #ffffff;
+}
+
+.weather-wrapper {
+    max-width: 850px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.weather-box {
+    list-style-type: none;
+    font-size: 0;
+    background-color: #ffffff;
+    box-sizing: border-box;
+}
+
+.weather-box .col {
+    width: 25%;
+    display: inline-block;
+    font-size: 20px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.weather-box:hover .col {
+    opacity: 0.8;
+    transition: all .2s ease-in;
+}
+
+.weather-box .col:hover {
+    opacity: 1;
+    transition: all .2s ease-in;
+}
+
+.weather-box .container {
+    margin: 5px;
+    padding: 25px 25px;
+    background-color: red;
+    line-height: 2;   
+}
+
+.col:first-child,
+.col:nth-child(9) {
+    width: 50%;
+}
+
+.col:last-child {
+    width: 100%;
+    padding-top: 0;
+}
+
+.col:nth-child(1n+4) .container {
+    margin-top: 0;
+    }
+
+.col:first-child .container,
+.col:nth-child(2) .container,
+.col:nth-child(4) .container,
+.col:nth-child(5) .container,
+.col:nth-child(6) .container,
+.col:nth-child(8) .container,
+.col:nth-child(9) .container {
+    margin-right: 0;
+}
+
+.container.green {
+    background-color: #339966;
+}
+
+.container.lile {
+    background-color: #CC6699;
+}
+
+.container.darkgreen {
+    background-color:#669999;
+}
+
+.container.olive {
+    background-color: #99CC99;
+}
+.container.yellow {
+    background-color: #FFCC66;
+}
+
+.container.orange {
+    background-color: #E2674A;
+}
+.container.red {
+    background-color: #C24747;
+}
+
+.container.purple {
+    background-color: #996699;
+}
+
+.container.blue {
+    background-color: #3399CC;
+}
+
+.container.darkpurple {
+    background-color: #666699;
+}
+
+.container.ocean {
+    background-color:#33CCCC;
+}
+
+.header-text,
+.footer-text {
+    display: block;
+    margin: 25px 0 25px 0;
+    font-family: "Lucida Grande", Arial, Helvetica, sans-serif;
+}
+
+.wi.wi-sunrise {
+    opacity: 1;
+    font-size: 25px;
+}
+
+.wi {
+    vertical-align: -14%;
+    margin-top: 1px;
+    font-size: 30px;
+}
