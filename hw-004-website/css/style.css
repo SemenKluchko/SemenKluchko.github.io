@@ -1,0 +1,34 @@
+body {
+    font-size: 18px;;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 750px;
+}
+
+header h2 {
+    background-color: #a52a2a;
+    text-align: center;
+    color: #ffffff;
+}
+
+.wrap-car {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.wrap-car img {
+    border: 2px dashed #000000;
+}
+
+.color {
+    color: #002fff;
+}
+
+footer  {
+    background-color: #000000;
+    text-align: center;
+    color: #ffffff;
+    font-size: 20px;
+}
