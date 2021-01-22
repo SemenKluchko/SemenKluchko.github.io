@@ -31,11 +31,12 @@
 
 .flex-item {
     flex-basis: 361px;
-    min-height: 441px;
+    height: 441px;
     margin: 15px;
     text-align: center;
     background-color: #ffffff;
     border-radius: 5px;
+    transition: all .3s ease-in-out;
 }
 
 .heading {
@@ -71,12 +72,10 @@
 }
 
 .flex-item:hover {
-    min-height: 500px;
+    transform: scale(1.1, 1.1);
     cursor: pointer;
     transition: all .2s linear;
     box-shadow: 2px 2px  5px rgba(197, 196, 196, 0.568), -2px -2px 5px rgba(197, 196, 196, 0.568);
+    transition: all 0.3s ease-in-out;
 }
 
-.flex-item:hover .heading {
-    padding-top: 30px;
-}
