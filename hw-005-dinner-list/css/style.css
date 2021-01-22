@@ -1,0 +1,198 @@
+/* Main styles */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Trebuchet MS', Trebuchet, Arial, sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+.wrapper {
+    padding: 20px;
+}
+
+header {
+    background-color: #4a4f56;
+    padding: 20px 0;
+    text-align: center;
+}
+
+button,
+header {
+    color: #e8786e;
+}
+
+main {
+    background-color: #3b3f45;
+    height: 80vh;
+}
+
+/* Styles for shopping list */
+
+.container {
+    width: 720px; 
+    height: auto;
+    margin: 0 auto;
+    padding: 30px 0;
+    box-sizing: border-box;
+}
+
+.smallText {
+    font-size: 14px;
+    color: #c0cbd6;
+    vertical-align: 20%;
+}
+
+.smallText:before {
+    content: "( "
+}
+
+.smallText:after {
+    content: " )"
+}
+
+/* Styling checkbox  */
+
+input[type="checkbox"],
+input[type="checkbox"]:not(:checked) {
+    display: block;
+    float: left; 
+    margin: 10px 10px 0 0;
+    color: black;
+    position: absolute;
+    left: -9999px;
+}
+
+
+input[type="checkbox"]:checked + span,
+input[type="checkbox"]:not(:checked) + span {
+    display: inline-block;
+    position: relative;
+    padding-left: 28px;
+    line-height: 20px;
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+}
+
+
+input[type="checkbox"]:checked +  span:before, 
+input[type="checkbox"]:not(:checked) +  span:before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #dddddd;
+    background-color: #ffffff;
+}
+
+input[type="checkbox"]:checked +  span:before, 
+input[type="checkbox"]:not(:checked) +  span:before {
+    border-radius: 2px;
+}
+
+
+input[type="checkbox"]:checked + span:after, 
+input[type="checkbox"]:not(:checked) +  span:after {
+    content: "";
+    position: absolute;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+input[type="checkbox"]:checked +  span:after, 
+input[type="checkbox"]:not(:checked) +  span:after {
+    left: 3px;
+    top: 4px;
+    width: 10px;
+    height: 5px;
+    border-radius: 1px;
+    border-left: 4px solid #3b3f45;
+    border-bottom: 4px solid #3b3f45;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+input[type="checkbox"]:not(:checked) +  span:after {
+    opacity: 0;
+}
+
+input[type="checkbox"]:checked +  span:after{
+    opacity: 1;
+}
+
+/* Here I add some style with line through but .smallText didn't understand that, after I add extra .smallText (on 146 line) to this styles, and it work  */
+
+input[type="checkbox"]:checked  + span  
+ {
+    color: #a3a0b5;
+    text-decoration: line-through;
+}
+
+
+
+/* Style for list item elements , background color, hover active and more  */
+
+.container label {
+    display: block;
+    background-color: #88839e;
+    color: #f3f4f3;
+    font-size: 24px;
+    padding: 15px 15px;
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+    
+}
+
+.container label:nth-child(2n) {
+    background-color: #7a7593;
+}
+
+.container label:hover {
+    background-color: #625e77;
+    border-top: 2px solid #ffffff;
+    border-bottom: 2px solid #ffffff;
+    cursor: pointer;
+}
+
+ .container label:active  {
+    background-color: #e8786e;  
+    transition: all .1s ease-in;
+}
+
+
+/* Style for button */
+
+.button {
+    width: 720px;
+    background-color: #4a4f56;
+    margin-top: 30px;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 24px;
+    border: none;
+    outline: none;
+}
+
+.button:hover {
+    background-color: #52575f;
+}
+
+.button:active {
+    background-color: #e8786e;  
+    color: #ffffff;
+}
