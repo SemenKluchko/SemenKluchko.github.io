@@ -1,0 +1,144 @@
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('/fonts/proxima_nova_regular-webfont.woff2') format("woff2"),
+         url('/fonts/proxima_nova_regular-webfont.woff') format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.main-wrapper {
+    width: 1200px;
+    height: 900px;
+    background-color: #464F54;
+    margin: 0 auto;
+    padding: 1px;
+    position: relative;
+}
+
+.text-wrapper {
+    width: 1060px;
+    height: 751px;
+    padding: 1px;
+    margin: 149px auto 0 auto;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 35px #00000038;
+}
+
+.article {
+    padding: 194px 123px 0 123px;
+    font-family: 'Bodoni Moda', Arial, Helvetica, serif;
+    font-size: 26.92px;
+    line-height: 40.38px;
+    color: #000000;
+}
+
+.article .author {
+    font-family: 'Proxima Nova', Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 4.34px;
+    color: #B4B4B4;
+    line-height: 23.8px;
+    display: block;
+    padding-bottom: 20px;
+}
+
+.article .heading {
+    margin: 10px 0;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 77.93px;
+    line-height: 73.52px;
+    letter-spacing: 4.13px;
+    text-transform: uppercase;
+    color: #2A2A2A;
+}
+
+.article .sub-heading {
+    font-size: 30px;
+    line-height: 62.44px;
+    color: #8F8F8F;
+    font-family: 'Bodoni Moda', Arial, Helvetica, serif;
+}
+                      
+.test {
+  position: absolute;
+  width: 876px;
+  height: 187px;
+  top: 47px;
+  right: 0px;
+  background-color: #181818;
+  box-shadow: -3.54px -3.54px 59px #00000029;
+}
+
+input[type=search] {
+    margin: 50px 0 50px 50px;
+    padding: 10px 0;
+    font-family: 'Playfair Display', Arial, Helvetica, serif;
+    font-size: 48px;
+    outline: none;
+    border: none;
+    width: 816px;
+    background-color: #181818;
+    border-bottom: 3px solid rgba(255,255,255, 0.1);
+    color: #ffffff;
+}
+
+/* hide reset button in search input for IE */
+input[type=text]::-ms-clear {  display: none; width : 0; height: 0; }
+input[type=text]::-ms-reveal {  display: none; width : 0; height: 0; }
+
+/* hide reset button in search input for chrome and other */
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button,
+input::-webkit-search-results-button,
+input::-webkit-search-results-decoration { display: none; }
+
+.test::before {
+    content: "TITLE";
+    color: #767676;
+    position: absolute;
+    top: -11px;
+    left: 47px;
+    font-family: 'Proxima Nova', Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    letter-spacing: 4.8px;
+    line-height: 109px;
+}
+
+.faw-container {
+    width: 812px;
+    height: 76px;
+    position: absolute;
+    right: 0;
+    top: 234px;
+    background-color: #FBC02D;
+    box-shadow: -3.54px -3.54px 59px #00000029;
+}
+
+.faw-container a {
+    text-decoration: none;
+    color: #ffffff;
+    opacity: 0.5;
+}
+
+.faw-container i {
+    font-size: 30px;
+    padding: 21px 0 0 28px
+}
+
+.faw-container a:hover {
+    opacity: 1;
+    transition: all .1s ease-in;
+}
+
+.faw-container a:focus:nth-child(4) {
+    opacity: 1;
+}
+
+#target {
+    opacity: 1;
+}
