@@ -83,14 +83,35 @@ body {
 }
 
 .loader {
-    width: 200px;
-    margin: 86px auto;
+    display: flex;
+    justify-content: center;
+    height: 209px;
+    align-items: center;
+}
+
+.loader-item {
+    flex-basis: 200px;
+    color: #99A5B0;
+    font-size: 13px;
+    text-transform: uppercase;
+    line-height: 30px;
 }
 
 .loader-text {
+    margin-left: 12px;
+}
+
+/* .loader {
+    width: 200px;
+    margin: 86px auto;
+} */
+
+
+
+/* .loader-text {
     margin-left: 12px;
     color: #99A5B0;
     font-size: 13px;
     text-transform: uppercase;
     line-height: 30px;
-} 
+}  */
