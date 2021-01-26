@@ -1,0 +1,102 @@
+@font-face{
+    font-family: 'Hans Kendrick';
+    src: url('/flex-2/fonts/neuehanskendrick-regular-webfont.woff2') format("woff2"),
+    url('/flex-2/fonts/neuehanskendrick-regular-webfont.woff') format("woff");
+}
+
+body {
+    background-color: #E2E7EC;
+    font-family: 'Hans Kendrick', Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: 90px auto;
+}
+
+.logo-img {
+    width: 54px;
+    height: auto;
+    position: absolute;
+    bottom: 5%;
+}
+
+.card {
+    height: 533px;
+}
+
+.card-body {
+    margin: 5px;
+}
+
+.card-title {
+    font-size: 13px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #818181;
+}
+
+.hidden {
+    display: block;
+    width: 316px;
+    height: 30px;
+    margin-bottom: 8px;
+}
+
+.card-text {
+    font-size: 22px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #1D1D1D;
+}
+
+.special {
+    left: 5%;
+    position: absolute;
+    bottom: 5%;
+}
+
+.special .card-title {
+    color: #FFFFFF;
+}
+
+.special .card-text {
+    color: #FFFFFF;
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.card.image-card {
+    background-image: url('/flex-2/images/bg-image.png');
+    width: 730px;
+    height: 530px;
+    border: none;
+}
+
+.card.image-card {
+    background-image:
+    linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.829)),
+    url('/flex-2/images/bg-image.png');
+    width: 730px;
+    height: 530px;
+   border: none;
+}
+
+.loader {
+    display: flex;
+    justify-content: center;
+    height: 209px;
+    align-items: center;
+}
+
+.loader-item {
+    flex-basis: 200px;
+    color: #99A5B0;
+    font-size: 13px;
+    text-transform: uppercase;
+    line-height: 30px;
+}
+
+.loader-text {
+    margin-left: 12px;
+}
