@@ -6,8 +6,7 @@ body {
 
 }
 
-
-.container {
+.container-first-layer {
     position: relative;
     background-image: url('/images/img-1.png');
     background-repeat: no-repeat;
@@ -17,17 +16,29 @@ body {
     min-height: 140vh;
 }
 
-
 .nav {
     display: flex;
     justify-content: space-between;
     width: 80%;
 }
 
-.header_nav--position {
+.nav__svg {
+    fill:#262626;
+    font-size: 50px;
+    font-family: 'Pacifico-Regular' , 'Pacifico';
+    width: 99px;
+    height: 84px;
+}
+
+.nav__svg:hover {
+    fill: #FF6033;
+}
+
+.header__nav--position {
     position: fixed;
     top: 3%;
     left: 10%;
+    z-index: 10;
 }
 
 .nav__links {
@@ -58,11 +69,12 @@ body {
     border-top: 3px solid #FF6033;
 }
 
-.section {
-    max-width: 25rem;
+.main__section--color {
+    color: #262626;
 }
 
 .main__section--position {
+    max-width: 25rem;
     position: absolute;
     top: 45%;
     left: 12%;
@@ -78,20 +90,64 @@ body {
     margin: 2rem 0;
 }
 
-.section__btn {
+.btn {
     font: lighter 20px/27px 'Raleway', sans-serif;
     text-transform: uppercase;
+    box-shadow: 0px 2px 5px #00000080;
     width: 200px;
     height: 55px;
-    background-color: #FF6033;
-    color: #FFFFFF;
     outline: none;
     border: none;
 }
 
+.section__btn--color-yellow {
+    background-color: #FF6033;
+    color: #FFFFFF;
+}
 
-.test {
-    height: 100vh;
-    background-color: red;
+.section__btn:hover {
+    background-color: #FFFFFF;
+    color: #FF6033;
+    border: 2px solid #FF6033;
+    cursor: pointer;
+}
 
+.container-first-layer__img {
+    position: sticky;
+    left: 50%;
+    top: 90%;
+    transform: translate(-50%, -90%);
+    width: 20px;
+    height: 36px;
+}
+
+.container-second-layer {
+    width: 100vw;
+    background: transparent radial-gradient(closest-side at 50% 50%, #00C4C4 0%, #00B7B7 32%, #00ADAD 68%, #009C9C 100%) 0% 0% no-repeat padding-box;
+}
+
+.article--position {
+    min-height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.article__img {
+    display: block;
+    margin-right: 5rem;
+}
+
+.article__section {
+    margin-right: 5rem;
+    width: 30vw;
+}
+
+.article__section--color {
+    color: #FFFFFF;
+}
+
+.section__title {
+    font: 700 90px/27px 'Raleway', sans-serif;
+    margin: 3rem 0;
 }

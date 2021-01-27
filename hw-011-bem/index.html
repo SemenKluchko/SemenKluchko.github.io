@@ -10,13 +10,15 @@
     <title>Cahee</title>
 </head>
 <body>
-    <div class="container">
+    <div class="container-first-layer">
         <header class="header">
-            <nav class="nav header__nav header_nav--position">
+            <nav class="nav header__nav header__nav--position">
                 <div class="nav__logo">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="99" height="84" viewBox="0 0 99 84"><defs><style>.a{fill:#262626;font-size:50px;font-family:Pacifico-Regular, Pacifico;}</style></defs>
-                        <text class="a" transform="translate(95 56)"><tspan x="-94.9" y="0">Cahee</tspan></text>
-                    </svg>
+                    <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="nav__svg" viewBox="0 0 99 84"><defs></defs>
+                            <text class="a" transform="translate(95 56)"><tspan x="-94.9" y="0">Cahee</tspan></text>
+                        </svg>
+                    </a>
                 </div>
                 <ul class="nav__links">
                     <li class="nav__item nav__item--active"><a href="#" class="nav__link">Home</a></li>
@@ -29,13 +31,24 @@
             </nav>
         </header>
         <main class="main">
-            <section class="section main__section main__section--position">
+            <section class="section main__section main__section--position main__section--color">
                 <h2 class="section__heading">Fresh Life</h2>
                 <p class="section__text">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-                <button class="btn section__btn">get free now</button>
+                <button class="btn section__btn section__btn--color-yellow">get free now</button>
             </section>
         </main>
+        <img src="images/scroll.png" class="container-first-layer__img" alt="scroll image">
     </div>
-    <div class="test"></div>
+    <div class="container-second-layer">
+        <article class="article article--position">
+            <img src="images/img.png" alt="cup with berries" class="article__img">
+            <section class="section article__section article__section--color">
+                <h2 class="section__title">About Us</h2>
+                <p class="section__text">Abore Cahee magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum. Nim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem 
+                    accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.</p>
+            </section>
+        </article>
+    </div>
 </body>
 </html>
