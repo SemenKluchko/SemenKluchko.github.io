@@ -76,8 +76,20 @@
   
   a {
     background-color: transparent;
+    text-decoration: none;
   }
   
+
+  
+  /**
+   * Remove list style for ul.
+   */
+
+  ul {
+    list-style-type: none;
+  }
+
+
   /**
    * 1. Remove the bottom border in Chrome 57-
    * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
