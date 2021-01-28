@@ -3,10 +3,9 @@ body {
     min-height: 100vh;
     background-color: #f9f8fb;
     font-family: 'Raleway', Arial, Helvetica, sans-serif;
-
 }
 
-.container-first-layer {
+.section-1 {
     position: relative;
     background-image: url('/images/img-1.png');
     background-repeat: no-repeat;
@@ -69,11 +68,11 @@ body {
     border-top: 3px solid #FF6033;
 }
 
-.main__section--color {
+.section-1__container--color {
     color: #262626;
 }
 
-.main__section--position {
+.section-1__container--position {
     max-width: 25rem;
     position: absolute;
     top: 45%;
@@ -81,11 +80,11 @@ body {
     transform: translate(-12%, -50%);
 }
  
-.section__heading {
+.container__heading {
     font: 900 60px/25px 'Raleway', sans-serif;
 }
 
-.section__text {
+.container__text {
     font: lighter 17px/27px 'Raleway', sans-serif;
     margin: 2rem 0;
 }
@@ -100,54 +99,53 @@ body {
     border: none;
 }
 
-.section__btn--color-yellow {
+.section-1__btn--color-yellow {
     background-color: #FF6033;
     color: #FFFFFF;
 }
 
-.section__btn:hover {
+.section-1__btn:hover {
     background-color: #FFFFFF;
     color: #FF6033;
     border: 2px solid #FF6033;
     cursor: pointer;
 }
 
-.container-first-layer__img {
-    position: sticky;
+.section-1__img {
+    position: absolute;
     left: 50%;
-    top: 90%;
-    transform: translate(-50%, -90%);
+    bottom: 5%;
+    transform: translate(-50%, -5%);
     width: 20px;
     height: 36px;
 }
 
-.container-second-layer {
+.section-2 {
     width: 100vw;
     background: transparent radial-gradient(closest-side at 50% 50%, #00C4C4 0%, #00B7B7 32%, #00ADAD 68%, #009C9C 100%) 0% 0% no-repeat padding-box;
-}
-
-.article--position {
     min-height: 700px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.article__img {
+.section-2__img {
     display: block;
     margin-right: 5rem;
+    width: 566px;
+    height: 559px;
 }
 
-.article__section {
+.section-2__container {
     margin-right: 5rem;
-    width: 30vw;
+    width: 35vw;
 }
 
-.article__section--color {
+.section-2__container--color {
     color: #FFFFFF;
 }
 
-.section__title {
+.section-2 .container__title {
     font: 700 90px/27px 'Raleway', sans-serif;
     margin: 3rem 0;
 }
