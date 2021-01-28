@@ -1,0 +1,35 @@
+.section-4 {
+    background-image: url('/images/contact-bg.png');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    width: 100vw;
+    min-height: 100vh;
+    padding: 1px;
+}
+
+.section-4__container--position {
+    width: 80vw;
+    margin: 0 auto;
+    padding: 1px;
+    text-align: center;
+ 
+}
+
+.container__title--big {
+    margin-top: 8rem;
+    font: 700 90px/25px 'Raleway', sans-serif;
+}
+
+.container__text--width {
+    width: 25vw;
+    margin: 2rem auto;
+    font: lighter 17px/25px 'Raleway', sans-serif;
+}
+
+
+.content {
+    width: 80vw;
+    margin: 2rem auto;
+    display: flex;
+}
