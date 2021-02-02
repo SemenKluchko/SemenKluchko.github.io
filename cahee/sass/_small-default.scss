@@ -341,7 +341,7 @@ body {
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
-    min-height: 100px;
+    min-height: 900px;
     width: 100vw;
     padding: 1px;
 }
@@ -352,9 +352,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: flex-start;
-    margin-bottom: 10rem;
-    min-height: 860px;
+    max-height: 860px;
 }
 
 .flex-block-1 {
@@ -364,6 +362,7 @@ body {
    
 }
 .flex-block-1__title {
+    margin-top: 6rem;
     font: 700 90px/25px 'Raleway', sans-serif;
 }
 
@@ -469,3 +468,82 @@ body {
     color: #FF2B58;
 }
 /* END OF FOOTER STYLES */
+
+/* SECTION 5 STYLES GOES HERE */
+.section-5 {
+    width: 100vw;
+    min-height: 790px;
+    background-color: #70BFFF;
+    padding: 1px;
+}
+
+.section-5__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6.25rem;
+}
+
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-end;
+    width: 30vw;
+    height: 550px;
+    list-style-type: none;
+    align-content: flex-end;
+}
+
+.cards__item {
+    flex-basis: 400px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    text-align: center;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    box-shadow: 0px 4px 10px #00000080;
+}
+
+.cards__text {
+    font: 700 20px/27px 'Raleway', sans-serif;
+    flex-basis: 70%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid transparent;
+    border-right: 1px solid #00000080;
+}
+
+.icon_cahee {
+    flex-basis: 30%;
+}
+
+.block {
+    position: relative;
+    margin-left: 5rem;
+    flex-basis: 45vw;
+}
+
+.block__image {
+    background-image: url('/images/tomatoes.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 467px;
+    height: 529px;
+    margin: 0 auto;
+}
+
+.block__title {
+    position: absolute;
+    right: 5rem;
+    top: 15rem;
+    font: 700 90px/27px 'Raleway', sans-serif;
+    color: #fff;
+}
+/* END OF SECTION 5 STYLES */
