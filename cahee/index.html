@@ -29,30 +29,30 @@
             </nav>
         </header>
         <main class="main">
-            <section class="section-1">
+            <section class="home">
                 <a name="home"></a>
-                <div class="container section-1__container section-1__container--position section-1__container--color">
-                    <h2 class="container__heading">Fresh Life</h2>
-                    <p class="container__text">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                <div class="container home__container home__container--position home__container--color">
+                    <h2 class="container__heading container__heading--heavy">Fresh Life</h2>
+                    <p class="container__text container__text--light">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
                     <button class="btn container__btn container__btn--color-yellow">get free now</button>
                 </div>
-                <img src="images/scroll.png" class="section-1__img" alt="scroll image">
+                <img src="images/scroll.png" class="home__img" alt="scroll image" />
             </section>
             <a name="about"></a>
-            <section class="section-2">
-                <img src="images/img.png" alt="cup with berries" class="section-2__img">
-                <div class="container section-2__container section-2__container--color">
-                        <h2 class="container__title">About Us</h2>
-                        <p class="container__text">
+            <section class="about">
+                <img src="images/img.png" alt="cup with berries" class="about__img" />
+                <div class="container about__container about__container--color">
+                        <h2 class="container__heading container__heading--bold">About Us</h2>
+                        <p class="container__text container__text--light">
                             Abore Cahee magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
                             Duis aute irure dolor in reprehenderit in voluptate velit esse cillum. Nim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem 
                             accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.
                         </p>
                 </div>
             </section>
-            <div class="section-5">
+            <section class="services">
                 <a name="services"></a>
-                <div class="section-5__container">
+                <div class="services__container">
                         <ul class="cards">
                             <li class="cards__item">
                                 <p class="cards__text">Online Shopping</p>
@@ -76,12 +76,41 @@
                             <div class="block__image"></div>
                         </div>
                 </div>
-            </div>
-            <section class="section-3">
+            </section>
+            <section class="gallery">
+                <div class="container center gallery__container">
+                    <h2 class="gallery__heading container__heading--bold">Gallery</h2>
+                    <p class="gallery__text container__text--light">Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                         quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                    <div class="gallery__images">
+                            <div class="gallery__image--big">
+                                <img src="images/gallery-img-1.png" alt="peach" />
+                            </div>
+                        <div class="gallery__images--small">
+                            <div class="gallery__image gallery__image--mrgn">
+                                <img src="images/gallery-img-2.png" alt="blackcurrant" />
+                            </div>
+                            <div class="gallery__image">
+                                <img src="images/gallery-img-3.png" alt="berries" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery__images">
+                        <div class="gallery__image--medium">
+                            <img src="images/gallery-img-4.png" alt="cup with milk" />
+                        </div>
+                        <div class="gallery__image--medium">
+                            <img src="images/gallery-img-5.png" alt="persimmon" />
+                        </div>
+                    </div>
+                    <button class="btn gallery__btn gallery__btn--color-grey">View More</button>
+            </section>
+            <section class="blog">
                 <a name="blog"></a>
-                <div class="container section-3__container section-3__container--color">
+                <div class="container center blog__container blog__container--color">
                     <h2 class="container__title container__title--big">Blog</h2>
-                    <p class="container__text container__text--width">Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                    <p class="container__text container__text--light container__text--width">Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
                         Duis aute irure dolor in reprehenderit in voluptate velit.
                     </p>
                     <div class="box container__box">
@@ -110,12 +139,12 @@
                     <button class="btn container__btn container__btn--color-red">View more</button>
                 </div>
             </section>  
-            <section class="section-4">
+            <section class="contact">
                 <a name="contact"></a> 
-                <div class="container section-4__container section-4__container--position">
-                    <div class="flex-block-1">
-                        <h2 class="flex-block-1__title">Contact</h2>
-                            <p class="flex-block-1__text container__text--width">For new projects, ideas, 
+                <div class="container contact__container contact__container--position">
+                    <div class="flex-block-1 center">
+                        <h2 class="flex-block-1__title container__heading--bold">Contact</h2>
+                            <p class="flex-block-1__text container__text--light container__text--width">For new projects, ideas, 
                                 business or anything you'd like to discuss, contact with me!
                             </p>
                     </div>    
@@ -135,7 +164,6 @@
                         <p class="flex-block-3__text">cahee@domain.com</p>
                         <h2 class="flex-block-3__title">PHONE</h2>
                         <p class="flex-block-3__text">+012 345 6789</p>
-        
                     </div>
                 </div>
             </section>
@@ -153,6 +181,5 @@
                 <p class="footer__author">Made with <span class="footer__love">love</span> by Simon Kluchko</p>
             </div>
         </footer> 
-        
 </body>
 </html>
