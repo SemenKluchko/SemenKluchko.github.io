@@ -1,0 +1,42 @@
+
+/* ------------------ Navigation ------------------ */
+.nav { 
+    width: 80%;
+    justify-content: space-between;
+}
+
+.nav__links:target {
+    display: flex;
+}
+
+.nav__links {
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    display: none;
+}
+
+.nav__item {
+    width: auto;
+    border-top: 3px solid transparent;
+}
+
+.nav__item:hover {
+    border-top: 3px solid #fff;
+    background-color: transparent;
+    color: #fff;
+}
+
+.nav__item--active {
+    border-top: 3px solid #fff;
+    background-color: transparent;
+    color: #fff;
+}
+
+/* ------------------ Home section ------------------ */
+
+.home__container--position {
+    margin: 0 2rem;
+
+}
+// 
