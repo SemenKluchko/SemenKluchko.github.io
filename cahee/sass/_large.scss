@@ -17,9 +17,14 @@
 } 
 
 .nav__links {
+    position: relative;
     display: flex;
     flex-direction: row;
     width: 55%;
+}
+
+.close {
+    display: none;
 }
 
 
@@ -62,20 +67,6 @@
     transform: translate(-12%, -50%);
 }
 
-
-.container__btn--color-yellow {
-    background-color: #FF6033;
-    color: #FFFFFF;
-}
-
-.container__btn--color-yellow:hover {
-    background-color: #FFFFFF;
-    color: #FF6033;
-    border: 2px solid #FF6033;
-    cursor: pointer;
-    transition: all .4s ease-in-out;
-    transform: scale(1.03, 1.03);
-}
 
 .home__img {
     position: absolute;

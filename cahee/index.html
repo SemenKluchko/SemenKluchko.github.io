@@ -18,15 +18,17 @@
                         </svg>
                     </a>
                 </div>
-                <button class="burger__btn"><a href="#ex" class="burger__item"></a></button>
+                <button class="burger__btn"></button>
                 <ul class="nav__links" id="ex">
-                    <li class="nav__item nav__item--active"><a href="#" class="nav__link">Home</a></li>
-                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-                    <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
-                    <li class="nav__item"><a href="#gallery" class="nav__link">Gallery</a></li>
-                    <li class="nav__item"><a href="#blog" class="nav__link">Blog</a></li>
-                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    <li class="nav__item nav__item--active"><a href="#" class="nav__link anchor">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link anchor">About</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link anchor">Services</a></li>
+                    <li class="nav__item"><a href="#gallery" class="nav__link anchor">Gallery</a></li>
+                    <li class="nav__item"><a href="#blog" class="nav__link anchor">Blog</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link anchor">Contact</a></li>
+                    <span class="close">&times;</span>
                 </ul>
+                
             </nav>
         </header>
         <main class="main">
@@ -79,6 +81,7 @@
                 </div>
             </section>
             <section class="gallery">
+                <a name="gallery"></a>
                 <div class="container center gallery__container">
                     <h2 class="gallery__heading container__heading--bold">Gallery</h2>
                     <p class="gallery__text container__text--light">Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -182,5 +185,6 @@
                 <p class="footer__author">Made with <span class="footer__love">love</span> by Simon Kluchko</p>
             </div>
         </footer> 
+        <script src="js/main.js"></script>
 </body>
 </html>
