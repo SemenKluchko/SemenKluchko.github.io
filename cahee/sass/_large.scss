@@ -1,0 +1,74 @@
+/* ------------------ Navigation ------------------ */
+.header {
+    position: fixed;
+    top: 5%;
+    left: 3%;
+    z-index: 10;
+    background-color: transparent;
+}
+
+.nav {
+    flex-direction: row;
+}
+
+
+.nav__svg {
+    fill:#262626;
+} 
+
+.nav__links {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 55%;
+}
+
+.close {
+    display: none;
+}
+
+
+.nav__item:hover {
+    border-top: 3px solid #FF6033;
+}
+
+.nav__item--active {
+    border-top: 3px solid #FF6033;
+}
+
+.nav__link {
+    color: #262626;
+}
+
+.burger__btn {
+    display: none;
+}
+
+/* ------------------ Home section ------------------ */
+.home {
+    min-height: 100vh;
+    background-size: contain;
+}
+
+.home__container--color {
+    color: #262626;
+}
+
+.home__container--position {
+    background-color: transparent;
+    max-width: 25rem;
+    position: absolute;
+    top: 45%;
+    left: 12%;
+    transform: translate(-12%, -50%);
+}
+
+
+.home__img {
+    position: absolute;
+    left: 50%;
+    bottom: 5%;
+    transform: translate(-50%, -5%);
+    width: 20px;
+    height: 36px;
+}
