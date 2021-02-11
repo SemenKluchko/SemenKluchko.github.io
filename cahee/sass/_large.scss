@@ -56,7 +56,7 @@
 
 .home__container--position {
     background-color: transparent;
-    max-width: 25rem;
+    width: 25%;
     position: absolute;
     top: 45%;
     left: 12%;
@@ -72,3 +72,30 @@
     width: 20px;
     height: 36px;
 }
+// end of home section
+
+/* ------------------ About section ------------------ */
+.about {
+    flex-wrap: nowrap;
+
+}
+
+.about__img {
+    position: static;
+    display: block;
+    width: 100%;
+    max-width: 566px;
+    max-height: 559px;
+}
+
+.about__container {
+    width: 40%;
+    background-color: transparent;
+}
+
+.about__container--color,
+.blog__container--color{
+    color: #FFFFFF;
+}
+
+// end of about section
