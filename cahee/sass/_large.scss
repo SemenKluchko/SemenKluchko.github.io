@@ -46,8 +46,8 @@
 
 /* ------------------ Home section ------------------ */
 .home {
-    min-height: 100vh;
-    background-size: contain;
+    min-height: 1000px;
+    background-size: contain cover;
 }
 
 .home__container--color {
@@ -99,3 +99,31 @@
 }
 
 // end of about section
+
+/* ------------------ Services section ------------------ */
+
+.services {
+    min-height: 800px;
+}
+
+.services__container {
+    margin-top: 6rem;
+    position: static;
+    flex-direction: row;
+}
+
+.block {
+    position: relative;
+    flex-basis: 50%;
+}
+
+.block__title {
+    display: block;
+}
+
+.cards {
+    width: 40%;
+}
+
+// end of services section
+

@@ -517,33 +517,35 @@ body {
 
 /* ------------------ Services section ------------------ */
 .services {
-    width: 100vw;
-    min-height: 790px;
+    width: 100%;
+    min-height: 600px;
     background-color: #70BFFF;
     padding: 1px;
 }
 
 .services__container {
+    position: relative;
     display: flex;
     justify-content: center;
+    flex-direction: column;;
     align-items: center;
-    margin-top: 6.25rem;
 }
 
 .cards {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: flex-end;
-    width: 30%;
+    width: 60%;
     height: 550px;
     list-style-type: none;
     align-content: flex-end;
+    z-index: 3;
 }
 
 .cards__item {
     flex-basis: 400px;
-    height: 100px;
+    min-height: 100px;
     display: flex;
     align-items: center;
     background-color: #fff;
@@ -556,7 +558,7 @@ body {
 .cards__text {
     font: 700 20px/27px 'Raleway', sans-serif;
     flex-basis: 70%;
-    height: 100px;
+    min-height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -569,22 +571,22 @@ body {
 }
 
 .block {
-    position: relative;
+    position: absolute;
+    top: 30px;
     margin-left: 3rem;
-    flex-basis: 50%;
+    flex-basis: 100%;
 }
 
 .block__image {
-    background-image: url('/images/tomatoes.png');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    width: 467px;
-    height: 529px;
+    display: block;
+    width: 100%;
+    max-width: 467px;
+    height: 100%;
     margin: 0 auto;
 }
 
 .block__title {
+    display: none;
     position: absolute;
     right: 5rem;
     top: 15rem;
