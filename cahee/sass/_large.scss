@@ -46,12 +46,8 @@
 
 /* ------------------ Home section ------------------ */
 .home {
-    position: relative;
-    background-image: url('/images/img-1.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    min-height: 140vh;
+    min-height: 100vh;
+    background-size: contain;
 }
 
 .home__container--color {

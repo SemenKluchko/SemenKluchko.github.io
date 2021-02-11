@@ -178,7 +178,7 @@ body {
     position: relative;
     background-image: url('/images/img-1.png');
     background-repeat: no-repeat;
-    background-position: top;
+    background-position: center center;
     background-size: cover;
     min-height: 500px;
 }
@@ -336,7 +336,11 @@ body {
 .container__btn--color-red {
     background-color: #F72B3B;  
     color: #fff; 
-    border: 2px solid transparentga; 
+    border: 2px solid transparent; 
+    padding-top: 10px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .container__btn--color-red:hover {
@@ -649,8 +653,10 @@ body {
  }
 
  .gallery__btn {
-     display: block;
-     margin: 2rem auto 7rem auto;
+    padding-top: 10px;
+    display: block;
+    text-align: center;
+    margin: 2rem auto 7rem auto;
  }
 
  .gallery__btn--color-grey {
